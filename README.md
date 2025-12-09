@@ -1,15 +1,16 @@
-# Embedded Digital Signal Processing on Nucleo G474RE
+# Embedded Digital Signal Processing on Matlab and Nucleo G474RE
+
 
 ## Overview
 
-This project implements basic Digital Signal Processing (DSP) algorithms on the STM32 Nucleo G474RE microcontroller. It focuses on real-time signal filtering and demonstrates the implementation of an **Exponential Moving Average (EMA) low-pass filter**.
-The project was developed as part of a Capstone Research Project.
+This project develops and implements Digital Signal Processing (DSP) algorithms using MATLAB for verification and the STM32 Nucleo G474RE microcontroller for real-time execution. The focus is on an **Exponential Moving Average (EMA) low-pass filter**.
+The project is part of a Capstone Research Project.
 
 ## Features
 
-* Implementation of fundamental DSP algorithms on an STM32 microcontroller
-* For starters, an exponential moving average (EMA) low-pass filter
-* Real-time data processing using Nucleo G474RE peripherals
+* Algorithm development and verification in MATLAB
+* Implementation of DSP algorithms on Nucleo G474RE microcontroller
+* Real-time signal processing and hardware testing
 * Modular and reusable code structure for embedded DSP applications
 
 ## Hardware
@@ -19,8 +20,9 @@ The project was developed as part of a Capstone Research Project.
 
 ## Software
 
-* STM32CubeIDE / HAL library
-* C programming for microcontroller firmware
+* MATLAB for algorithm development and simulation
+* STM32CubeIDE / HAL library for embedded implementation
+* Embedded C programming
 * ARM Cortex-M4 DSP instructions utilized for efficient computation
 
 ## Usage
@@ -30,14 +32,16 @@ The project was developed as part of a Capstone Research Project.
    ```bash
    git clone https://github.com/Ekansh345/Implementation-of-dsp-algorithms-on-a-microcontroller.git
    ```
-2. Open the project in **STM32CubeIDE**.
-3. Compile and flash the firmware onto the Nucleo G474RE board.
-4. Send input signals via ADC and observe filtered output on UART or DAC.
+2. MATLAB scripts can be run to verify algorithms.
+3. Open the STM32 project in **STM32CubeIDE**.
+4. Compile and flash the firmware onto the Nucleo G474RE board.
+5. Send input signals via ADC and observe filtered output on UART or DAC.
 
 ## Project Structure
 
 ```
-├── Core/               # Source code for DSP algorithms
+├── MATLAB/             # Scripts for DSP algorithm verification
+├── Core/               # Source code for microcontroller implementation
 ├── Inc/                # Header files
 ├── Docs/               # Project documentation (if any)
 └── README.md           # This file
@@ -45,9 +49,10 @@ The project was developed as part of a Capstone Research Project.
 
 ## Outcome
 
-* Successfully implemented low-pass filtering on a microcontroller
-* Verified algorithm functionality with test input signals
+* Verified DSP algorithms in MATLAB before hardware implementation
+* Successfully implemented low-pass filtering on Nucleo G474RE
 * Demonstrated real-time signal processing capabilities on embedded hardware
+
 
 
 ## Future Scope
