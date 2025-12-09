@@ -49,9 +49,6 @@ The project was developed as part of a Capstone Research Project.
 * Verified algorithm functionality with test input signals
 * Demonstrated real-time signal processing capabilities on embedded hardware
 
-## GitHub Repository
-
-[View Project on GitHub](https://github.com/Ekansh345/Implementation-of-dsp-algorithms-on-a-microcontroller)
 
 ## Future Scope
 
