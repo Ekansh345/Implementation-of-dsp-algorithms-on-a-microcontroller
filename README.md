@@ -3,15 +3,15 @@
 
 ## Overview
 
-This project develops and implements Digital Signal Processing (DSP) algorithms using MATLAB for verification and the STM32 Nucleo G474RE microcontroller for real-time execution. The focus is on an **Exponential Moving Average (EMA) low-pass filter**.
+This project develops and implements Digital Signal Processing (DSP) algorithms using MATLAB for verification and the STM32 Nucleo G474RE microcontroller for real-time execution. The focus is on an **Exponential Moving Average (EMA) low-pass filter**. The various algorithms are developed by varying choice of numerical integration techniques
 The project is part of a Capstone Research Project.
 
 ## Features
 
-* Algorithm development and verification in MATLAB
-* Implementation of DSP algorithms on Nucleo G474RE microcontroller
+* Algorithm development based on different numerical integration techniques.
+* Testing of algorithms on MATLAB to confirm and plot expected results.
+* Implementation of the developed algorithms on Nucleo G474RE microcontroller
 * Real-time signal processing and hardware testing
-* Modular and reusable code structure for embedded DSP applications
 
 ## Hardware
 
@@ -49,7 +49,7 @@ The project is part of a Capstone Research Project.
 
 ## Outcome
 
-* Verified DSP algorithms in MATLAB before hardware implementation
+* Verified and compared numerical integration techniques and applied them to a low-pass filter algorithm in MATLAB before hardware implementation
 * Successfully implemented low-pass filtering on Nucleo G474RE
 * Demonstrated real-time signal processing capabilities on embedded hardware
 
